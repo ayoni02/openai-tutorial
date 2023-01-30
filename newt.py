@@ -26,5 +26,5 @@ def gpt3_completion(prompt, engine='text-davinci-002', temp=0.7, top_p=1.0, toke
         return "GPT3 error: %s" % oops
     
 if __name__ == '__main__':
-    prompt = 'list of famous american actors:'
+    prompt = input('Prompt: ')
     print(gpt3_completion(prompt))
