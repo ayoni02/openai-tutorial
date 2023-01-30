@@ -1,4 +1,3 @@
-import re
 import openai
 
 def open_file(filepath):
