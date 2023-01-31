@@ -21,9 +21,11 @@ def gpt3_completion(prompt, engine='text-davinci-002', temp=0.7, top_p=1.0, toke
             stop=stop
         )
         text = response['choices'][0]['text'].strip()
+        
         return text
     except Exception as oops:
         return "GPT3 error: %s" % oops
+    
     
 if __name__ == '__main__':
     prompt = input('Prompt: ')
