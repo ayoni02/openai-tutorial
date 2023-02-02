@@ -1,0 +1,5 @@
+Year: 2020
+Place: Nigeria\Parameter1: environment
+Parameter2: food
+
+Scenerio: 
